@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #123524;
+            @apply text-gray-200;
+        }
+        .section-heading {
+            @apply text-3xl md:text-4xl font-bold mb-8 text-center text-gray-100;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Hero Section -->
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center max-w-5xl">
+            <div class="text-2xl font-bold text-gray-900 mb-2 md:mb-0">
+                Aleksandra Bulat
+            </div>
+            <nav class="space-x-4">
+                <a href="#about" class="text-gray-600 hover:text-gray-900 transition duration-300">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-gray-900 transition duration-300">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900 transition duration-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-16 max-w-5xl">
+        <!-- Hero Section Content -->
+        <section class="text-center py-16 md:py-24">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-100 leading-tight mb-4">
+                Portfolio of Events
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
+                I'm a passionate event manager with a proven track record of creating memorable and impactful experiences.
+            </p>
+            <a href="#projects" class="bg-gray-100 text-gray-900 font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300 transform hover:scale-105">
+                View My Projects
+            </a>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-12 md:py-16">
+            <h2 class="section-heading"></h2>
+            <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 text-gray-700 leading-relaxed">
+                <p>Hello! My name is Aleks, and I specialize in bringing ideas to life through dynamic and meticulously planned events. Over my career, I've had the opportunity to work on a wide range of projects, from large-scale corporate conferences to intimate community gatherings.</p>
+                <br>
+                <p>My strengths lie in strategic planning, vendor negotiation, and seamless on-site execution. I thrive on solving complex problems and ensuring every detail is perfect, all while maintaining a focus on the attendee experience. I am passionate about creating moments that resonate and achieve tangible results for my clients and partners.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-12 md:py-16">
+            <h2 class="section-heading"></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                    <img src="https://i.imgur.com/dX0Qhc1.jpeg" alt="Jaguar Land Rover Tour" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Jaguar Art of Performance / Land Rover Above & Beyond Tour</h3>
+                        <p class="text-gray-600 mb-4">These multi-city experiential events delivered engaging brand experiences while achieving a 10% year-over-year increase in attendance and conversions.</p>
+                        <div class="flex space-x-4">
+                            <!-- Link to the first video -->
+                            <a href="https://youtu.be/-Rc5cJSFuxU" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                Video 1
+                            </a>
+                            <!-- Link to the second video -->
+                            <a href="https://youtu.be/FgGujmXX6UE" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                Video 2
+                            </a>
+                             <!-- Link for additional photos -->
+                            <a href="https://imgur.com/a/SRU07aR" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                View Photos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                     <!-- Replace the src URL below with your permanent image link -->
+                    <img src="https://i.imgur.com/WfJ1Jtz.jpg" alt="Rider Training Rewards" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Rider Training Rewards</h3>
+                        <p class="text-gray-600 mb-4">I led a cross-functional collaboration to launch a new rider program that successfully converted over 54% of participants into product and apparel customers.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://youtube.com/shorts/d_5wWf-JBbs?feature=share" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                View Video
+                            </a>
+                             <a href="https://imgur.com/a/Lv7hzIS" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                View Photos
+                            </a>
+                            <a href="#" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                     <img src="https://i.imgur.com/FwYirFY.jpg" alt="Motorcycle Shows" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Motorcycle Shows</h3>
+                        <p class="text-gray-600 mb-4">I managed Harley-Davidson's presence at the Moto Canada Shows, creating engaging experiences to introduce new products and inspire future purchases.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://youtube.com/shorts/rvYWGBctBQE?feature=share" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                Video 1
+                            </a>
+                            <a href="https://youtube.com/shorts/TjZQAXPSM1U?feature=share" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                Video 2
+                            </a>
+                             <a href="#" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                     <img src="https://i.imgur.com/MaBTCno.jpeg" alt="Level-Up Pilot" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Level-Up Pilot</h3>
+                        <p class="text-gray-600 mb-4">This initiative created a welcoming environment for new and returning riders, successfully generating a 48% first-time Harley-Davidson rider participation rate.</p>
+                        <div class="flex space-x-4">
+                            <a href="https://youtu.be/FZTpILFcJeQ" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                View Video
+                            </a>
+                             <a href="#" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Project 5 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105">
+                     <img src="https://i.imgur.com/mlI6NiI.jpeg" alt="Rally in the Rockies" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Rally in the Rockies</h3>
+                        <p class="text-gray-600 mb-4">I developed and executed a two-day motorcycle rally that attracted over 3,000 attendees and drove an 8% year-over-year sales increase.</p>
+                        <div class="flex space-x-4">
+                            <!-- Placeholder link for PDF -->
+                            <a href="https://drive.google.com/file/d/173selSMjCb6FavGM_Jnv7-eDa0WsbvNU/view?usp=sharing" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                View Details
+                            </a>
+                            <a href="https://imgur.com/a/uXFlHNK" class="inline-block bg-gray-800 text-white text-sm font-semibold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">
+                                View Photos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-12 md:py-16 text-center">
+            <h2 class="section-heading"></h2>
+            <p class="text-lg text-white mb-6 max-w-2xl mx-auto">
+                I'm always open to new opportunities and collaborations. 
+            </p>
+            <div class="flex justify-center">
+                <a href="mailto:aleksandra.bulat@gmail.com" class="inline-block bg-gray-900 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-700 transition duration-300 transform hover:scale-105">
+                    Email Me
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6 mt-12">
+        <p>&copy; 2024 Aleksandra Bulat. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
